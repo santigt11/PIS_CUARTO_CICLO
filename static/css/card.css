@@ -1,0 +1,13 @@
+.card {
+    background-color: #f8f9fa; /* Color del fondo del recuadro */
+    border: 1px solid #dee2e6; /* Borde del recuadro */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Sombra del recuadro */
+}
+
+.card-title {
+    font-weight: bold; /* Negrita en el título */
+}
+
+.card-body {
+    text-align: center; /* Centrando el contenido */
+}
