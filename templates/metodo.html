@@ -86,9 +86,81 @@
                             <!-- Aquí puede haber más contenido del recuadro -->
                         </div>
                     </div>
-                    <div class="text-center mt-4">
-                        <button type="button" class="btn btn-primary">Calcular</button>
+
+                     <!-- Input Values -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Número de estudiantes matriculados</h5>
+                    <input type="number" id="initialEnrolled" class="form-control" placeholder="Ingrese número de matriculados">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Número de estudiantes no matriculados</h5>
+                    <input type="number" id="initialUnenrolled" class="form-control" placeholder="Ingrese número de no matriculados">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Input Values -->
+
+                    <!-- Date Range Selection -->
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Seleccione el año de inicio</h5>
+                                    <select id="startYear" class="form-select" aria-label="Seleccione el año de inicio">
+                                        <script>
+                                            for (let year = 2000; year <= 2023; year++) {
+                                                document.write(`<option value="${year}">${year}</option>`);
+                                            }
+                                        </script>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Seleccione el año de fin</h5>
+                                    <select id="endYear" class="form-select" aria-label="Seleccione el año de fin">
+                                        <script>
+                                            for (let year = 2000; year <= 2023; year++) {
+                                                document.write(`<option value="${year}">${year}</option>`);
+                                            }
+                                        </script>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- End of Date Range Selection -->
+
+                    <div class="text-center mt-4">
+                        <button type="button" class="btn btn-primary" onclick="calculateEuler()">Calcular</button>
+                    </div>
+
+<!-- Results -->
+<div class="row mt-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Resultados</h5>
+                <!-- Cuadro de texto para mostrar los resultados -->
+                <textarea id="resultBox" class="form-control" rows="10" readonly></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Results -->
+
+
+
                 </div>
                 <!-- /.container-fluid -->
             </div>
@@ -110,6 +182,7 @@
     <script src="{{ url_for('static', filename='js/chart.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/chart-area-demo.js') }}"></script>
     <script src="{{ url_for('static', filename='js/chart-pie-demo.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/euler/euler.js') }}"></script>
 </body>
 
 </html>
