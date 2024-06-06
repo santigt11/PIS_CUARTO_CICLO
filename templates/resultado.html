@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados del Método de Euler</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resultados del Método de Euler</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Tiempo</th>
+                <th>Estudiantes en la universidad (N)</th>
+                <th>Estudiantes desertados (M)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for time in time_values %}
+            <tr>
+                <td>{{ time_values[loop.index0] }}</td>
+                <td>{{ N_values[loop.index0] }}</td>
+                <td>{{ M_values[loop.index0] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <h2>Total de estudiantes desertados: {{ estudiantes_desertados }}</h2>
+</body>
+</html>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -87,102 +86,69 @@
                         </div>
                     </div>
 
-                     <!-- Input Values -->
-    <div class="row mt-4">
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Número de estudiantes matriculados</h5>
-                    <input type="number" id="initialEnrolled" class="form-control" placeholder="Ingrese número de matriculados">
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Número de estudiantes no matriculados</h5>
-                    <input type="number" id="initialUnenrolled" class="form-control" placeholder="Ingrese número de no matriculados">
-                </div>
+                    <!-- Formulario para ingresar los datos del método -->
+                    <form action="/resultado" method="post">
+                        <!-- Input Values -->
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Número de estudiantes matriculados</h5>
+                                        <input type="number" name="N0" class="form-control" placeholder="Ingrese número de matriculados">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Número de estudiantes no matriculados</h5>
+                                        <input type="number" name="M0" class="form-control" placeholder="Ingrese número de no matriculados">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Input Values -->
+
+                        <!-- Date Range Selection -->
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Seleccione el año de inicio</h5>
+                <select name="start_year" class="form-select" aria-label="Seleccione el año de inicio">
+                    {% for year in range(2000, 2005) %}
+                        <option value="{{ year }}">{{ year }}</option>
+                    {% endfor %}
+                </select>
             </div>
         </div>
     </div>
-    <!-- End of Input Values -->
-
-                    <!-- Date Range Selection -->
-                    <div class="row mt-4">
-                        <div class="col-md-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Seleccione el año de inicio</h5>
-                                    <select id="startYear" class="form-select" aria-label="Seleccione el año de inicio">
-                                        <script>
-                                            for (let year = 2000; year <= 2023; year++) {
-                                                document.write(`<option value="${year}">${year}</option>`);
-                                            }
-                                        </script>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Seleccione el año de fin</h5>
-                                    <select id="endYear" class="form-select" aria-label="Seleccione el año de fin">
-                                        <script>
-                                            for (let year = 2000; year <= 2023; year++) {
-                                                document.write(`<option value="${year}">${year}</option>`);
-                                            }
-                                        </script>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Date Range Selection -->
-
-                    <div class="text-center mt-4">
-                        <button type="button" class="btn btn-primary" onclick="calculateEuler()">Calcular</button>
-                    </div>
-
-<!-- Results -->
-<div class="row mt-4">
-    <div class="col-md-12">
+    <div class="col-md-6">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Resultados</h5>
-                <!-- Cuadro de texto para mostrar los resultados -->
-                <textarea id="resultBox" class="form-control" rows="10" readonly></textarea>
+                <h5 class="card-title">Seleccione el año de fin</h5>
+                <select name="end_year" class="form-select" aria-label="Seleccione el año de fin">
+                   {% for year in range(2000, 2005) %}
+                        <option value="{{ year }}">{{ year }}</option>
+                    {% endfor %}
+                </select>
             </div>
         </div>
     </div>
 </div>
-<!-- End of Results -->
+<!-- End of Date Range Selection -->
 
+                        <!-- Botón de enviar formulario -->
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-primary">Calcular</button>
+                        </div>
 
-
+                    </form>
+                    <!-- End of Formulario para ingresar los datos del método -->
                 </div>
-                <!-- /.container-fluid -->
+                <!-- End of Page Content -->
             </div>
             <!-- End of Main Content -->
-
-            <!-- Footer -->
-            <!-- End of Footer -->
         </div>
         <!-- End of Content Wrapper -->
     </div>
-    <!-- End of Page Wrapper -->
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/jquery.easing.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/sb-admin-2.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/chart.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/chart-area-demo.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/chart-pie-demo.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/euler/euler.js') }}"></script>
-</body>
-
-</html>
