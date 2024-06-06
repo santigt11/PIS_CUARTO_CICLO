@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd043028-775f-4fe9-b764-cf1659649620" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/img/unl-modificada.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/metodo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/metodo.html" afterDir="false" />
@@ -35,27 +36,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Flask server.Flask (main.py).executor": "Run",
-    "Flask server.PIS_CUARTO_CICLO.executor": "Run",
-    "Python.PIS_CUARTO_CICLO.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "cambios",
-    "last_opened_file_path": "D:/Desktop/Universidad/Complejidad Computacional/Programación python/PIS_CUARTO_CICLO",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Flask server.Flask (main.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.PIS_CUARTO_CICLO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PIS_CUARTO_CICLO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cambios&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/Universidad/Complejidad Computacional/Programación python/PIS_CUARTO_CICLO&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Universidad\Complejidad Computacional\Programación python\PIS_CUARTO_CICLO\static\img" />
       <recent name="D:\Desktop\Universidad\Complejidad Computacional\Programación python\PIS_CUARTO_CICLO\templates" />
     </key>
   </component>
@@ -114,7 +116,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -130,7 +132,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -165,7 +167,9 @@
       <workItem from="1717548289946" duration="1644000" />
       <workItem from="1717550037640" duration="7924000" />
       <workItem from="1717601559605" duration="201000" />
-      <workItem from="1717622894335" duration="13399000" />
+      <workItem from="1717622894335" duration="13730000" />
+      <workItem from="1717640020504" duration="1024000" />
+      <workItem from="1717680324329" duration="3798000" />
     </task>
     <servers />
   </component>
@@ -173,7 +177,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PIS_CUARTO_CICLO$PIS_CUARTO_CICLO.coverage" NAME="PIS_CUARTO_CICLO Coverage Results" MODIFIED="1717638713867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PIS_CUARTO_CICLO$PIS_CUARTO_CICLO.coverage" NAME="PIS_CUARTO_CICLO Coverage Results" MODIFIED="1717683935680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PIS_CUARTO_CICLO$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1717601584061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PIS_CUARTO_CICLO$main.coverage" NAME="main Coverage Results" MODIFIED="1717544412803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

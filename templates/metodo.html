@@ -99,33 +99,33 @@
                         <!-- End of Input Values -->
 
                         <!-- Date Range Selection -->
-<div class="row mt-4">
-    <div class="col-md-6">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Seleccione el año de inicio</h5>
-                <select name="start_year" class="form-select" aria-label="Seleccione el año de inicio">
-                    {% for year in range(2000, 2005) %}
-                        <option value="{{ year }}">{{ year }}</option>
-                    {% endfor %}
-                </select>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Seleccione el año de fin</h5>
-                <select name="end_year" class="form-select" aria-label="Seleccione el año de fin">
-                   {% for year in range(2000, 2005) %}
-                        <option value="{{ year }}">{{ year }}</option>
-                    {% endfor %}
-                </select>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End of Date Range Selection -->
+                <div class="row mt-4">
+                <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Seleccione el año de inicio</h5>
+                                <select name="start_year" class="form-select" aria-label="Seleccione el año de inicio">
+                                    {% for year in range(2000, 2023) %}
+                                    <option value="{{ year }}">{{ year }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Seleccione el año de fin</h5>
+                                        <select name="end_year" class="form-select" aria-label="Seleccione el año de fin">
+                                            {% for year in range(2000, 2023) %}
+                                            <option value="{{ year }}">{{ year }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Date Range Selection -->
 
                         <!-- Botón de enviar formulario -->
                         <div class="text-center mt-4">
