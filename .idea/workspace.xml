@@ -5,10 +5,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd043028-775f-4fe9-b764-cf1659649620" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/unl-modificada.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/default-skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/meanmenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/IcoMoon-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/Poppins-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/icon/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/icon/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/icon/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/images/client.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/images/food1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/images/food2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/images/food3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/images/food4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/images/menu_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/images/toy_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/jquery-3.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/modernizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/assets/coloredbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/assets/gridtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/assets/gridtile_3x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/assets/gridtile_3x3_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/assets/gridtile_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/assets/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/css/closedhand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/css/layers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/css/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/css/openhand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/css/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroked41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/fonts/revicons/revicons90c6.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/fonts/revicons/revicons90c6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/fonts/revicons/revicons90c6.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/fonts/revicons/revicons90c6.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/extensions/revolution.extension.actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/extensions/revolution.extension.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/extensions/revolution.extension.kenburn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/extensions/revolution.extension.layeranimation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/extensions/revolution.extension.migration.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/extensions/revolution.extension.navigation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/extensions/revolution.extension.parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/extensions/revolution.extension.slideanims.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/extensions/revolution.extension.video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/revolution/js/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/js/slider-setting.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/metodo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/metodo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +131,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -41,27 +164,35 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Flask server.Flask (main.py).executor&quot;: &quot;Run&quot;,
     &quot;Flask server.PIS_CUARTO_CICLO.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;Python.PIS_CUARTO_CICLO.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;cambios&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/Universidad/Complejidad Computacional/Programación python/PIS_CUARTO_CICLO&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/Universidad/Complejidad Computacional/Programación python/PIS_CUARTO_CICLO/models&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Universidad\Complejidad Computacional\Programación python\PIS_CUARTO_CICLO\models" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Desktop\Universidad\Complejidad Computacional\Programación python\PIS_CUARTO_CICLO\static\img" />
       <recent name="D:\Desktop\Universidad\Complejidad Computacional\Programación python\PIS_CUARTO_CICLO\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Flask server.PIS_CUARTO_CICLO">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PIS_CUARTO_CICLO/registro/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="PIS_CUARTO_CICLO" type="PythonConfigurationType" factoryName="Python">
       <module name="PIS_CUARTO_CICLO" />
       <option name="ENV_FILES" value="" />
@@ -132,7 +263,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -142,6 +273,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Flask server.Flask (main.py)" />
         <item itemvalue="Python.main" />
       </list>
@@ -169,7 +301,11 @@
       <workItem from="1717601559605" duration="201000" />
       <workItem from="1717622894335" duration="13730000" />
       <workItem from="1717640020504" duration="1024000" />
-      <workItem from="1717680324329" duration="3798000" />
+      <workItem from="1717680324329" duration="4543000" />
+      <workItem from="1717686909440" duration="3817000" />
+      <workItem from="1718664588056" duration="4480000" />
+      <workItem from="1718670774916" duration="1488000" />
+      <workItem from="1718679011046" duration="2338000" />
     </task>
     <servers />
   </component>
@@ -177,7 +313,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PIS_CUARTO_CICLO$PIS_CUARTO_CICLO.coverage" NAME="PIS_CUARTO_CICLO Coverage Results" MODIFIED="1717683935680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIS_CUARTO_CICLO$PIS_CUARTO_CICLO.coverage" NAME="PIS_CUARTO_CICLO Coverage Results" MODIFIED="1717690276938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PIS_CUARTO_CICLO$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1717601584061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PIS_CUARTO_CICLO$main.coverage" NAME="main Coverage Results" MODIFIED="1717544412803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
